@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
+//just demonstration purposes to practice assembly, not secure
 contract AssemblySend {
     address[2] owners = [
         0x684585A4E1F28D83F7404F0ec785758C100a3509,
