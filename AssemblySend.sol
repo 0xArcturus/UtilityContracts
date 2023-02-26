@@ -22,6 +22,7 @@ contract AssemblySend {
                 //we check with opcode eq if to is owner
                 if eq(to, owner) {
                     //we send perform a call transaction and save the return bool onto success
+                    // gas() is the remaining gas
                     success := call(gas(), to, amount, 0, 0, 0, 0)
                 }
             }
